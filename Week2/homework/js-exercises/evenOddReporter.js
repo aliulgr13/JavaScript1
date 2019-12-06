@@ -12,8 +12,12 @@
 //     }
 // }
 
-let message;
+// let message;
+// for(let i=0; i<20; i++) {
+//   (i%2===0) ? message="The number "+i+ " is even!." : message="The number "+i+ " is odd!.";
+//       console.log(message);
+// }
+
 for(let i=0; i<20; i++) {
-  (i%2===0) ? message="The number "+i+ " is even!." : message="The number "+i+ " is odd!.";
-      console.log(message);
+    console.log("The number " + i + " is " + ( i%2 ? "odd" : "even") + "!.");
 }
