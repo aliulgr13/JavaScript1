@@ -14,8 +14,8 @@ const addToShoppingCart = function(groceryItem) {
   groceryList.push(groceryItem);
   if (groceryList.length > 3) {
     groceryList.shift();
-    return `You bought ${groceryList}!`;
   }
+  return `You bought ${groceryList}!`;
 };
 console.log(addToShoppingCart("apple"));
 console.log(addToShoppingCart("peach"));

@@ -5,7 +5,7 @@
 // Write logic that randomly selects a compliment
 // Return a string: "You are [COMPLIMENT], [YOUR_NAME]!
 
-let arrayOfCompliment = [
+const arrayOfCompliment = [
   "great",
   "awesome",
   "legendary",

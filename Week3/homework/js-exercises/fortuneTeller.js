@@ -8,10 +8,10 @@
 // Call the function 1 time, by passing the arrays as the argument.
 
 //FIRST WAY
-let numChild = [0, 1, 2, 3, 4];
-let partnerNam = ["Scarlett", "Robin", "Curly", "Nesli", "Hattavay"];
-let loc = ["England", "Netherlands", "USA", "Turkey", "Canada"];
-let job = ["Coder", "President", "CafeOwner", "Tradesman", "Engineer"];
+const numChildren = [0, 1, 2, 3, 4];
+const partnerNams = ["Scarlett", "Robin", "Curly", "Nesli", "Hattavay"];
+const locs = ["England", "Netherlands", "USA", "Turkey", "Canada"];
+const jobs = ["Coder", "President", "CafeOwner", "Tradesman", "Engineer"];
 
 const tellFortune = function(numChildren, partnerNames, locations, jobs) {
   let rand = Math.floor(Math.random() * 5);
@@ -24,6 +24,6 @@ const tellFortune = function(numChildren, partnerNames, locations, jobs) {
   numChildren = numChildren[rand];
   return `You will be a ${jobs} in ${locations}, and married to ${partnerNames} with ${numChildren} kids.`;
 };
-console.log(tellFortune(numChild, partnerNam, loc, job));
+console.log(tellFortune(numChildren, partnerNams, locs, jobs));
 
 //SECOND WAY we can find a solution with JavaScript Array prototype Constructor...
